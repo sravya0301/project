@@ -1,0 +1,43 @@
+*{
+  
+   box-sizing:border-box
+}
+
+.logo{
+  position:relative;
+  width:30px;
+
+}
+nav{
+  list-style-type: none;
+  background-color:rgba(150,256,160,0.8);
+  width:100%;
+  height:50px;
+  
+}
+nav ul{
+ float:right;
+ margin-right:20px;
+}
+nav ul li{
+ display:inline-block;
+ line-height:20px;
+ margin:0 2px;
+ 
+}
+nav ul li a{
+ text-decoration:none;
+ color:purple;
+ font-size:18px;
+ padding:7px 10px;
+}
+.hidden {
+    display: none;
+   
+}
+#showButton{
+  color:blue;
+}
+
+
+
